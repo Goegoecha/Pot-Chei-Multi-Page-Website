@@ -1,0 +1,27 @@
+@media screen and (max-width:500px) {
+  .top-icons {
+    margin-left: 20px;
+  }
+
+  .top-icons i {
+    font-size: 18px;
+  }
+
+  .other-links i {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width:350px) {
+  .top-icons {
+    margin-left: 10px;
+  }
+
+  .top-icons i {
+    font-size: 12px;
+  }
+
+  .other-links i {
+    font-size: 8px;
+  }
+}

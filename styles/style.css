@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-navbar {
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.top-icons {
+  margin-left: 45px;
+  display: flex;
+}
+
+.top-icons i {
+  font-size: 20px;
+  color: black;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.other-links {
+  display: flex;
+  align-items: center;
+  margin-right: 33px;
+}
+
+.other-links i {
+  font-size: 20px;
+  color: black;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#btn-login,
+#btn-signup {
+  border: 2px solid black;
+  color: black;
+  background-color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.15s;
+  cursor: pointer;
+  margin: 3px;
+  padding: 4px 10px;
+}
+
+#btn-login a,
+#btn-signup a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+#btn-login a:hover,
+#btn-signup a:hover {
+  background-color: black;
+  color: white;
+}
+
+#btn-login:hover,
+#btn-signup:hover {
+  background-color: black;
+  color: white;
+}

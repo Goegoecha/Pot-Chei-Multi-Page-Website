@@ -1,27 +1,177 @@
-@media screen and (max-width:500px) {
-  .top-icons {
-    margin-left: 20px;
+@media (max-width:1030px) {
+
+  /* Home CSS */
+  .home .home-banner-1,
+  .home .home-banner-2 {
+    background-position: 65% center;
+    min-height: 400px;
   }
 
-  .top-icons i {
-    font-size: 18px;
+  .home .home-banner .home-banner-text {
+    transform: translate(-80%, -50%);
   }
 
-  .other-links i {
-    font-size: 15px;
+  .home .home-banner .home-banner-text1 {
+    transform: translate(-90%, -50%);
+  }
+
+  .home .home-banner .home-banner-text2 {
+    transform: translate(-80%, -50%);
+  }
+
+  /* Offer CSS */
+  .offers .offer-box .offer-info .heading-bigger {
+    font-size: 3rem;
   }
 }
 
-@media screen and (max-width:350px) {
-  .top-icons {
-    margin-left: 10px;
+
+
+@media (max-width:991px) {
+
+  /* Home CSS */
+  .home .home-banner .home-banner-text {
+    transform: translate(-66%, -50%);
   }
 
-  .top-icons i {
-    font-size: 12px;
+  /* Special CSS */
+
+  .special .countdown-container {
+    padding-top: 1rem;
+    padding-bottom: 5rem;
   }
 
-  .other-links i {
-    font-size: 8px;
+  /* Testimonial CSS */
+
+  .testimonial .carousel-control-prev {
+    left: -1.75rem;
+  }
+
+  .testimonial .carousel-control-next {
+    right: -1.75rem;
+  }
+}
+
+
+@media (max-width:767px) {
+
+  /* Home CSS */
+  .home .home-banner-1,
+  .home .home-banner-2 {
+    background-position: 50% center;
+    min-height: 350px;
+  }
+
+  .navbar .dropdown-menu {
+    left: 0 !important;
+    right: 0 !important;
+    margin: auto !important;
+    text-align: center;
+  }
+
+  .home .home-banner .home-banner-text1,
+  .home .home-banner .home-banner-text2 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+  }
+
+  .home .home-banner .home-banner-text1 h1,
+  .home .home-banner .home-banner-text2 h1 {
+    font-size: 4rem;
+  }
+
+  .home .home-banner .home-banner-text1 h2,
+  .home .home-banner .home-banner-text2 h2 {
+    font-size: 1.2rem;
+  }
+
+  .home .home-banner .home-banner-text .btn-dark {
+    padding: 0.5rem 1.5rem;
+  }
+
+  .home .slider-icon {
+    font-size: 2rem;
+  }
+
+  /* Shop Now */
+
+  .products .shop-now-content h2 {
+    font-size: 1rem;
+  }
+
+  .products .shop-now-content h2:hover {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  /* Offer CSS */
+  .offers .offer-box .offer-info .heading-bigger {
+    font-size: 2rem;
+  }
+
+  /* Special CSS */
+
+  .special {
+    padding: 4rem 0;
+  }
+
+  .special .coundown-container .countdown-counter li {
+    padding: 1rem;
+    width: 20%;
+  }
+
+  /* Testimonial CSS */
+
+  .testimonial .carousel-control-prev,
+  .testimonial .carousel-control-next {
+    display: none;
+  }
+
+  .testimonial .testimonial-wrapper {
+    padding: 1rem;
+  }
+
+  /* About Us */
+
+  .aboutus .about-us h2 {
+    font-size: 2rem;
+  }
+
+  .aboutus .about-us img {
+    height: 200px;
+  }
+}
+
+
+
+@media (max-width:330px) {
+
+  /* Home CSS */
+  .home .home-banner .home-banner-text h2 {
+    font-size: 1rem;
+  }
+
+  /* Shop Now */
+
+  .products .shop-now-content h2 {
+    font-size: 0.625rem;
+  }
+
+  .products .shop-now-content h2:hover {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .aboutus .about-us h2 {
+    font-size: 1rem;
+    top: 50%;
+  }
+
+  .aboutus .about-us img {
+    height: 200px;
   }
 }

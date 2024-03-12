@@ -1,4 +1,10 @@
 @media (max-width:1030px) {
+  /* Navigation CSS */
+
+  #header .topbar {
+    height: 5vh;
+    font-size: 2rem;
+  }
 
   /* Home CSS */
   .home .home-banner-1,
@@ -8,15 +14,15 @@
   }
 
   .home .home-banner .home-banner-text {
-    transform: translate(-80%, -50%);
+    transform: translate(-80%, -40%);
   }
 
   .home .home-banner .home-banner-text1 {
-    transform: translate(-90%, -50%);
+    transform: translate(-90%, -40%);
   }
 
   .home .home-banner .home-banner-text2 {
-    transform: translate(-80%, -50%);
+    transform: translate(-60%, -40%);
   }
 
   /* Offer CSS */
@@ -28,10 +34,39 @@
 
 
 @media (max-width:991px) {
+  /* Navigation CSS */
+
+  #header .topbar .top-icons {
+    font-size: 1rem;
+    margin-left: 0.625rem;
+  }
+
+  #header .topbar .top-icons i {
+    padding: 0.245rem;
+  }
+
+  #header .topbar .other-links {
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+
+  #header .topbar .other-links .btn {
+    margin-right: 0.625rem;
+    padding: 0.125rem 0.225rem;
+    font-size: 1rem;
+  }
 
   /* Home CSS */
   .home .home-banner .home-banner-text {
     transform: translate(-66%, -50%);
+  }
+
+  .home .home-banner .home-banner-text1 {
+    transform: translate(-60%, -40%);
+  }
+
+  .home .home-banner .home-banner-text2 {
+    transform: translate(-50%, -40%);
   }
 
   /* Special CSS */
@@ -54,6 +89,27 @@
 
 
 @media (max-width:767px) {
+  /* Navigation CSS */
+
+  #header .topbar .top-icons {
+    font-size: 1rem;
+    margin-left: 0.625rem;
+  }
+
+  #header .topbar .top-icons i {
+    padding: 0.245rem;
+  }
+
+  #header .topbar .other-links {
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+
+  #header .topbar .other-links .btn {
+    margin-right: 0.625rem;
+    padding: 0.125rem 0.225rem;
+    font-size: 1rem;
+  }
 
   /* Home CSS */
   .home .home-banner-1,
@@ -81,7 +137,7 @@
 
   .home .home-banner .home-banner-text1 h1,
   .home .home-banner .home-banner-text2 h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .home .home-banner .home-banner-text1 h2,
@@ -149,6 +205,29 @@
 
 
 @media (max-width:330px) {
+  /* Navigation CSS */
+
+  #header .topbar .other-links .btn {
+    font-size: 0.625rem;
+  }
+
+  #header .topbar .top-icons {
+    margin-left: 0.655rem;
+  }
+
+  #header .topbar .top-icons i {
+    padding: 0.245rem;
+    font-size: 0.725rem;
+  }
+
+  #header .topbar .other-links {
+    margin-right: 0.625rem;
+  }
+
+  #header .topbar .other-links i {
+    margin-right: 0.255rem;
+    font-size: 0.725rem;
+  }
 
   /* Home CSS */
   .home .home-banner .home-banner-text h2 {

@@ -53,6 +53,17 @@ p {
 }
 
 /* Navigation CSS */
+#header .topbar {
+  width: 100%;
+  height: 7vh;
+  background-color: var(--bg-black);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+
 
 #header .fixed-top {
   box-shadow: 0 0.125rem 0.675rem rgb(0 0 0 / 5%);
@@ -68,6 +79,59 @@ p {
   background-size: cover;
   image-rendering: crisp-edges;
   object-fit: cover;
+  margin-left: 2rem;
+}
+
+#header .topbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#header .topbar .top-icons {
+  color: var(--text-white);
+  margin-left: 2rem;
+}
+
+#header .topbar .top-icons i {
+  padding: 0.625rem;
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+
+#header .topbar .top-icons i:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+
+#header .topbar .other-links {
+  margin-right: 1rem;
+  color: var(--text-white);
+}
+
+#header .topbar .other-links .btn {
+  margin-right: 1rem;
+  background-color: var(--bg-black);
+  color: var(--text-white);
+  padding: 0.245rem 0.625rem;
+  border: 1px solid white;
+}
+
+#header .topbar .other-links .btn:hover {
+  background-color: var(--bg-white);
+  color: var(--text-black);
+  transition: all 0.3s ease-out;
+}
+
+
+#header .topbar .other-links i {
+  margin-right: 0.625rem;
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+
+#header .topbar .other-links i:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
 }
 
 #header .navbar-nav .nav-item .nav-link:hover,
@@ -108,19 +172,20 @@ p {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-110%, -50%);
+  transform: translate(-105%, -50%);
 }
 
 .home .home-banner .home-banner-text2 {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-90%, -50%);
+  transform: translate(-80%, -50%);
+  white-space: nowrap;
 }
 
 .home .home-banner .home-banner-text1 h1,
 .home .home-banner .home-banner-text2 h1 {
-  font-size: 6rem;
+  font-size: 5rem;
   color: var(--text-black);
 }
 
@@ -227,7 +292,7 @@ p {
 }
 
 .offers .offer-box .offer-info .heading-bigger {
-  font-size: 4.375rem;
+  font-size: 3rem;
   line-height: 1;
   text-transform: uppercase;
   font-weight: 400;
@@ -388,6 +453,8 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 3;
+  text-wrap: nowrap;
+  font-weight: 400;
 }
 
 .products .shop-now-content h2:hover {

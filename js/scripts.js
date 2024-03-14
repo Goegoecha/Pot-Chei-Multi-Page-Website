@@ -59,7 +59,11 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
+// Back
 
+function goBack() {
+  window.history.back();
+}
 
 
 
